@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'ingredient.dart';
+
 //Recipe
 class Recipe {
   int servings;
@@ -43,18 +45,4 @@ class Recipe {
       ],
     ),
   ];
-}
-
-//Ingredients
-class Ingredient {
-  double quantity;
-  String measure;
-  String name;
-  Ingredient(this.quantity, this.measure, this.name);
-}
-
-class Image {
-  String name;
-  String imageUrl;
-  Image(this.name, this.imageUrl);
 }
